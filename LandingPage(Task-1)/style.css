@@ -1,0 +1,187 @@
+
+.navbar{
+    justify-content: center;
+    text-align:unset;
+    background: linear-gradient(to right,#eaa27e, #d74ac2 );
+}
+.socialIcons ul{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(212, 41, 150);
+    
+}
+.navbar ul i{
+    border-right: 1.2px solid #fffffffc ;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 11px;
+}
+.navbar ul i{
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1px;
+}
+.navbar ul:last-child {
+    border-right: none;
+  }
+.navbar .contact a{
+    color: aliceblue;
+    margin-left: 300px;   
+}
+.navbar .Email a{
+    margin-left: 35px;
+    color: whitesmoke;
+}
+.heading{
+    background-color: rgb(142, 194, 239);
+    display: inline;
+    justify-content: center;
+    text-align: center; 
+    padding: 10px; 
+    
+}
+.landing li {
+   list-style: none;
+   display: inline-block;
+   margin: 30px;
+   height: 5%;
+   justify-content: center;
+   text-align: center;
+   margin-top: 50px;
+   
+}
+.landing li a{
+    color: black;
+    text-underline-offset: none;
+}
+.landing a, .landing h3 {
+    text-decoration: none; 
+}
+.buyNow{
+    background-color: #d29272;   
+}
+.buyNow a{
+    width: 100px;
+    height: 100vh;
+}
+.MainSection{
+    height: 8px;
+}
+
+/* now start image area*/
+.box{
+    position: relative;
+    width: 100%;
+    
+}
+.image{
+    width: 100%;
+    display: block;
+}
+.text h3{
+    color:#d29272;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Style for the button on the image */
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background: linear-gradient(to right,#eaa27e, #d74ac2 );
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.down{
+    width: 100%;
+   
+    background: linear-gradient(to right,#eaa27e, #d74ac2 );
+}
+.line{
+    max-width: 120px;
+    height: 6px;
+    background: linear-gradient(to right,#f45d12, #d74ac2 );
+}
+
+.down .downlo{
+    display: inline-block;
+   text-align: center;
+   justify-content: center;
+}
+.down .downlo ul{
+    display: block;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.down .downlo ul i, h5{
+    display: inline;
+    margin: 3px;
+    text-align: center;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.row {
+    display: inline-block;
+    flex: 1;
+    width: 50%;
+}
+
+.abouttext {
+    
+    padding: 20px;
+}
+
+.image2{
+    
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    background: linear-gradient(to right,#eaa27e, #d74ac2 );
+}
+.ourservice{
+    padding: 20px;
+    background-color: rgb(245, 248, 249);
+    height: 10%;
+}
+.ourservice .sec {
+    display: flex;
+    overflow: hidden;
+}
+.ourservice .sec .sec1{
+    padding: 60px;
+}
+
+ .sec .sec1 .sec2{
+    display: flex;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    width: 30%;
+}
+.sec .sec1 .sec2 i{
+    background: linear-gradient(to right,#eaa27e, #d74ac2 );
+
+}
